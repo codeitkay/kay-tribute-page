@@ -1,0 +1,67 @@
+html {
+  font-size: 1rem;
+  background-color: #DCDCDC;
+}
+body {
+  text-align: center;
+  font-family: Yantramanav, Helvetica, Georgia;
+  line-height: 1;
+}
+#main {
+  background-image: linear-gradient(#eef0ef, #DCDCDC);
+  border-radius: 30px;
+  height: 470px;
+}
+#title {
+  text-align: center;
+  font-weight: bold;
+  min-width: 400px;
+}
+#occupation {
+  text-align: center;
+  min-width: 300px;
+}
+h3 {
+  max-width: 800px;
+  min-width: 300px;
+  display: inline-block; /** Text stays in block format**/
+  margin: 20px 0px;
+}
+#img-caption {
+  font-weight:bold;
+  line-height: 5;
+  min-width: 300px;
+}
+ul {
+  background-color: #eef0ef;
+  border-radius: 2%;
+  max-width: 600px;
+  min-width: 400px;
+  display: inline-block; /** Aligns text to dots in list**/
+  text-align: left;
+  line-height: 1.6;
+  margin: 25px 50px 50px 20px;
+}
+li {
+  margin: 20px 0px; /** Space between each list item**/
+}
+img {
+  max-width: 350px;
+  display: block; /**Centers Image**/
+  max-height: 200px;
+  margin: 0 auto; /**Centers Image**/
+  border-radius: 50%; /**Rounded corners**/
+  box-shadow: 50px 10px 60px #999; /**(x-offset, y-offset, blur radius, color) **/
+}
+ul {
+  display: table;
+  margin: 0 auto;
+}
+blockquote {
+  max-width: 500px;
+  display: inline-block; /** Text stays in block format**/
+  margin: 20px 0px;
+  font-style: italic;
+  min-width: 578px;
+  max-width: 578px;
+}
